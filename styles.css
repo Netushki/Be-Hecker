@@ -82,3 +82,31 @@ body {
 .form-2 {
   margin-top: 5px;
 }
+
+@media (max-width: 575px) {
+  /* Form */
+  .form,
+  .form-2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .form,
+  .form-2,
+  .button {
+    width: 90%;
+  }
+
+  .button:hover {
+    width: 85%;
+  }
+
+  /* Hecker */
+  .hecker__img {
+    width: 90%;
+  }
+
+  .hecker__img:hover {
+    width: 85%;
+  }
+}
