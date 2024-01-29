@@ -20,3 +20,7 @@ body {
   background-color: rgb(175, 64, 64);
   cursor: pointer;
 }
+
+.sound {
+  display: none;
+}

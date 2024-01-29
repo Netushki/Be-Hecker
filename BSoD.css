@@ -1,0 +1,30 @@
+.sound {
+  display: none;
+}
+
+body {
+  background-color: rgb(44, 118, 161);
+  height: 100%;
+}
+
+.skull {
+  height: 100%;
+  display: none;
+  text-align: center;
+}
+
+@media (max-width: 1050px) {
+  .pc {
+    display: none;
+  }
+
+  body {
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 0, 0));
+    height: 750px;
+  }
+
+  .skull {
+    font-size: 348px;
+    display: block;
+  }
+}
